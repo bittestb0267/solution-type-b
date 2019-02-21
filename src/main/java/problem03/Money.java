@@ -13,18 +13,22 @@ public class Money {
 	}
 
 	public Money add(Money money) {
+		amount = amount + money.amount;
 		return null;
 	}
 
 	public Money minus(Money money) {
+		amount = amount - money.amount;
 		return null;
 	}
 
 	public Money multiply(Money money) {
+		amount = amount * money.amount;
 		return null;
 	}
 
 	public Money devide(Money money) {
+		amount = amount / money.amount;
 		return null;
 	}
 }
